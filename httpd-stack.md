@@ -31,6 +31,7 @@ $ sudo su - studentapp
 $ wget -O- http://mirrors.wuchna.com/apachemirror/tomcat/tomcat-9/v9.0.12/bin/apache-tomcat-9.0.12.tar.gz | tar -xz
 $ sh apache-tomcat-9.0.12/bin/startup.sh          <<-- Starting Tomcat
 $ cd apache-tomcat-9.0.12/webapps
+$ rm -rf *
 $ wget https://github.com/citb32/project-setup/raw/master/student.war
 ```
 
